@@ -1,9 +1,8 @@
 {
-  "name": "evobot",
+  "name": "hello-express",
   "version": "0.3.2",
-  "description": "Discord music bot built with discord.js",
+  "description": "müzik",
   "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
   "private": true,
     "engines": { "node": "12.x" },
   "dependencies": {
