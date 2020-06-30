@@ -114,7 +114,7 @@ module.exports = (client, v2) => {
     }
     
   });
-
+//BU ALTYAPI SATILAMAZ 
   app.get("/autherror", (req, res) => {
     renderTemplate(res, req, "autherror.ejs");
     
@@ -128,16 +128,19 @@ module.exports = (client, v2) => {
     });
     
   });
+//BU ALTYAPI SATILAMAZ 
 
  app.get("/", (req, res) => {
     renderTemplate(res, req, "index.ejs");
     
   });
+//BU ALTYAPI SATILAMAZ 
 
   app.get("/commands", (req, res) => {
     renderTemplate(res, req, "commands.ejs", {md});
   });
-  
+  //BU ALTYAPI SATILAMAZ 
+
   app.get("/stats", (req, res) => {
     const duration = moment.duration(client.uptime).format(" D [gün], H [saat], m [dakika], s [saniye]");
     const members = client.guilds.reduce((p, c) => p + c.memberCount, 0);
@@ -161,16 +164,19 @@ module.exports = (client, v2) => {
     const perms = Discord.EvaluatedPermissions;
     renderTemplate(res, req, "dashboard.ejs", {perms});
   });
-  
+  //BU ALTYAPI SATILAMAZ 
+
   app.get("/admin", checkAuth, (req, res) => {
     if (!req.session.isAdmin) return res.redirect("/");
     renderTemplate(res, req, "admin.ejs");
   });
+//BU ALTYAPI SATILAMAZ 
 
   app.get("/dashboard/:guildID", checkAuth, (req, res) => {
     res.redirect(`/dashboard/${req.params.guildID}/manage`);
   });
 
+//BU ALTYAPI SATILAMAZ 
 
   const managementRenderTemp = (res, req, template, data = {}) => {
     const baseData = {

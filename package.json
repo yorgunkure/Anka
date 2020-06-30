@@ -4,7 +4,9 @@
   "description": "müzik",
   "main": "index.js",
   "private": true,
-    "engines": { "node": "12.x" },
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
     "discord.jsv2": "github:YusufByt/sadvrtru",
@@ -31,5 +33,6 @@
   },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "license": "MIT"
 }
