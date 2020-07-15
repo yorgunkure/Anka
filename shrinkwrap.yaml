@@ -7,7 +7,7 @@ dependencies:
   express-session: 1.17.1
   helmet: 3.23.3
   level-session-store: 2.2.0
-  marked: 1.1.0
+  marked: 1.1.1
   moment: 2.27.0
   moment-duration-format: 2.3.2
   opusscript: 0.0.7
@@ -16,7 +16,7 @@ dependencies:
   quick.db: 7.1.1
   simple-youtube-api: 5.2.1
   ytdl-core: 3.1.2
-  ytdl-core-discord: github.com/amishshah/ytdl-core-discord/c932d746f70c37910dea735344b1166be565ec17
+  ytdl-core-discord: github.com/amishshah/ytdl-core-discord/488934b19ddb8e32357fe60eb8abc55b7219566f
 optionalDependencies:
   erlpack: github.com/discordapp/erlpack/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b
   node-opus: 0.3.3
@@ -35,10 +35,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.0.22:
+  /@types/node/14.0.23:
     dev: false
     resolution:
-      integrity: sha512-emeGcJvdiZ4Z3ohbmw93E/64jRzUHAItSHt8nF7M4TGgQTiWqFVGB8KNpLGFmUHmHLvjvBgFwVlqNcq+VuGv9g==
+      integrity: sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -711,13 +711,13 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-z6ldnAdhbuWOL6LmMkwptSZGzj+qbRytMKLTbNicwF/bJMjf9U9lqD57RNQUFecvWadEkzy6PDjcNJFFgi19uQ==
-  /marked/1.1.0:
+  /marked/1.1.1:
     dev: false
     engines:
       node: '>= 8.16.2'
     hasBin: true
     resolution:
-      integrity: sha512-EkE7RW6KcXfMHy2PA7Jg0YJE1l8UPEZE8k45tylzmZM30/r1M1MUXWQfJlrSbsTeh7m/XTwHbWUENvAJZpp1YA==
+      integrity: sha512-mJzT8D2yPxoPh7h0UXkB+dBj4FykPJ2OIfxAWeIHrvoHDkFxukV/29QxoFQoPM6RLEwhIFdJpmKBlqVM3s2ZIw==
   /media-typer/0.3.0:
     dev: false
     engines:
@@ -1443,16 +1443,15 @@ packages:
       registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/YusufByt/sadvrtru/tar.gz/ad010712223145c4066c1d59c8a4d3930522fbe2'
     version: 11.6.0-dev
-  github.com/amishshah/ytdl-core-discord/c932d746f70c37910dea735344b1166be565ec17:
+  github.com/amishshah/ytdl-core-discord/488934b19ddb8e32357fe60eb8abc55b7219566f:
     dependencies:
-      '@types/node': 14.0.22
+      '@types/node': 14.0.23
       prism-media: 1.2.2
       ytdl-core: 3.1.2
     dev: false
     name: ytdl-core-discord
     resolution:
-      registry: 'https://registry.npmjs.org/'
-      tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/c932d746f70c37910dea735344b1166be565ec17'
+      tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/488934b19ddb8e32357fe60eb8abc55b7219566f'
     version: 1.2.1
   github.com/discordapp/erlpack/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b:
     dependencies:
