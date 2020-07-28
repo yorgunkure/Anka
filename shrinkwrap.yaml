@@ -16,15 +16,15 @@ dependencies:
   quick.db: 7.1.1
   simple-youtube-api: 5.2.1
   ytdl-core: 3.1.3
-  ytdl-core-discord: github.com/amishshah/ytdl-core-discord/7c0ab536d7c059ab10dd6483031e8d63d5c8b6bb
+  ytdl-core-discord: github.com/amishshah/ytdl-core-discord/2b9f76238e7c498d4fd47f4f9ccf64451f68f585
 optionalDependencies:
   erlpack: github.com/discordapp/erlpack/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b
   node-opus: 0.3.3
 packages:
-  /@discordjs/collection/0.1.5:
+  /@discordjs/collection/0.1.6:
     dev: false
     resolution:
-      integrity: sha512-CU1q0UXQUpFNzNB7gufgoisDHP7n+T3tkqTsp3MNUkVJ5+hS3BCvME8uCXAUFlz+6T2FbTCu75A+yQ7HMKqRKw==
+      integrity: sha512-utRNxnd9kSS2qhyivo9lMlt5qgAUasH2gb7BEOn6p0efFh24gjGomHzWKMAPn2hEReOPQZCJaRKoURwRotKucQ==
   /@discordjs/form-data/3.0.1:
     dependencies:
       asynckit: 0.4.0
@@ -1443,7 +1443,7 @@ packages:
       registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/YusufByt/sadvrtru/tar.gz/ad010712223145c4066c1d59c8a4d3930522fbe2'
     version: 11.6.0-dev
-  github.com/amishshah/ytdl-core-discord/7c0ab536d7c059ab10dd6483031e8d63d5c8b6bb:
+  github.com/amishshah/ytdl-core-discord/2b9f76238e7c498d4fd47f4f9ccf64451f68f585:
     dependencies:
       '@types/node': 14.0.26
       prism-media: 1.2.2
@@ -1451,7 +1451,7 @@ packages:
     dev: false
     name: ytdl-core-discord
     resolution:
-      tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/7c0ab536d7c059ab10dd6483031e8d63d5c8b6bb'
+      tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/2b9f76238e7c498d4fd47f4f9ccf64451f68f585'
     version: 1.2.1
   github.com/discordapp/erlpack/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b:
     dependencies:
@@ -1466,7 +1466,7 @@ packages:
     version: 0.1.3
   github.com/discordjs/discord.js/2b6e6d86310a9f9fc4293c2f76f37690db9003e4:
     dependencies:
-      '@discordjs/collection': 0.1.5
+      '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
       abort-controller: 3.0.0
       node-fetch: 2.6.0
