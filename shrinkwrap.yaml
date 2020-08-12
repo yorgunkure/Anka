@@ -1,6 +1,6 @@
 dependencies:
   btoa: 1.2.1
-  discord.js: github.com/discordjs/discord.js/2be68e41259c6f4339ffb4af1eaa4d3d30fd91f3
+  discord.js: github.com/discordjs/discord.js/0225851e404e2c8f9cf8bbeca7e83aea8d3cfc3c
   discord.jsv2: github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2
   ejs: 3.1.3
   express: 4.17.1
@@ -18,7 +18,7 @@ dependencies:
   ytdl-core: 3.2.1
   ytdl-core-discord: github.com/amishshah/ytdl-core-discord/6626e3d5a1a565cb223cb0fa8ebbe551af261c37
 optionalDependencies:
-  erlpack: github.com/discordapp/erlpack/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b
+  erlpack: github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d
   node-opus: 0.3.3
 packages:
   /@discordjs/collection/0.1.6:
@@ -1454,7 +1454,7 @@ packages:
       registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/6626e3d5a1a565cb223cb0fa8ebbe551af261c37'
     version: 1.2.1
-  github.com/discordapp/erlpack/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b:
+  github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d:
     dependencies:
       bindings: 1.5.0
       nan: 2.14.1
@@ -1463,9 +1463,9 @@ packages:
     optional: true
     requiresBuild: true
     resolution:
-      tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/ff0139045ca4cc457462e5a1a88f6a0bc5c27c4b'
+      tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/e27db8f82892bdb9b28a0547cc394d68b5d2242d'
     version: 0.1.3
-  github.com/discordjs/discord.js/2be68e41259c6f4339ffb4af1eaa4d3d30fd91f3:
+  github.com/discordjs/discord.js/0225851e404e2c8f9cf8bbeca7e83aea8d3cfc3c:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
@@ -1480,8 +1480,7 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
-      registry: 'https://registry.npmjs.org/'
-      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/2be68e41259c6f4339ffb4af1eaa4d3d30fd91f3'
+      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/0225851e404e2c8f9cf8bbeca7e83aea8d3cfc3c'
     version: 12.2.0
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
