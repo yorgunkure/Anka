@@ -1,6 +1,6 @@
 dependencies:
   btoa: 1.2.1
-  discord.js: github.com/discordjs/discord.js/56e8ef2d38633154540748acb64f4c1305fcc6d3
+  discord.js: github.com/discordjs/discord.js/b6167d8c3bc40283ca2d1b454e7af33f5ab0089d
   discord.jsv2: github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2
   ejs: 3.1.3
   express: 4.17.1
@@ -1465,7 +1465,7 @@ packages:
     resolution:
       tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/e27db8f82892bdb9b28a0547cc394d68b5d2242d'
     version: 0.1.3
-  github.com/discordjs/discord.js/56e8ef2d38633154540748acb64f4c1305fcc6d3:
+  github.com/discordjs/discord.js/b6167d8c3bc40283ca2d1b454e7af33f5ab0089d:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
@@ -1480,8 +1480,7 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
-      registry: 'https://registry.npmjs.org/'
-      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/56e8ef2d38633154540748acb64f4c1305fcc6d3'
+      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/b6167d8c3bc40283ca2d1b454e7af33f5ab0089d'
     version: 12.3.1
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
