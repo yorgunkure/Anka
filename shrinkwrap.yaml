@@ -1451,6 +1451,7 @@ packages:
     dev: false
     name: ytdl-core-discord
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/7260efe5ab0cf68ad9eade7734eb7a98af1276db'
     version: 1.2.1
   github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d:
@@ -1479,6 +1480,7 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/b0ab37ddc0614910e032ccf423816e106c3804e5'
     version: 12.3.1
 registry: 'https://registry.npmjs.org/'
