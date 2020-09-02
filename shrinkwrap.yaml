@@ -35,10 +35,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.6.2:
+  /@types/node/14.6.3:
     dev: false
     resolution:
-      integrity: sha512-onlIwbaeqvZyniGPfdw/TEhKIh79pz66L1q06WUQqJLnAb6wbjvOtepLYTGHTqzdXgBYIE3ZdmqHDGsRsbBz7A==
+      integrity: sha512-pC/hkcREG6YfDfui1FBmj8e20jFU5Exjw4NYDm8kEdrW+mOh0T1Zve8DWKnS7ZIZvgncrctcNCXF4Q2I+loyww==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -1445,7 +1445,7 @@ packages:
     version: 11.6.0-dev
   github.com/amishshah/ytdl-core-discord/7260efe5ab0cf68ad9eade7734eb7a98af1276db:
     dependencies:
-      '@types/node': 14.6.2
+      '@types/node': 14.6.3
       prism-media: 1.2.2
       ytdl-core: 3.2.2
     dev: false
