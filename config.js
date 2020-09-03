@@ -3,12 +3,12 @@ const config = {
   "sahip": ["692790523424931932"],
   "admins": [""],//Yetkili eklemek isterseniz, o kişinin ID'si.
   "support": [""],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
-  "token": "",//Botun, tokeni.
+  "token": "NzQ5NjUxMTM4MTY4NjE5MTk4.X0vFBw.TklOVMQlJVXNACkuyhCyEGL51EU",//Botun, tokeni.
   "dashboard" : {
     "oauthSecret": "",//Client secret.
-    "callbackURL": `https://v12muzik.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
-    "sessionSecret": "Codare",//Bu kısımı, değiştirmeyiniz.
-    "domain": "https://v12muzik.glitch.me"//Sitenin, adresi.
+    "callbackURL": `https://squats-bot.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
+    "sessionSecret": "momet",//Bu kısımı, değiştirmeyiniz.
+    "domain": "https://squats-bot.glitch.me"//Sitenin, adresi.
   }
 };
 
