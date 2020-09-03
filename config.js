@@ -1,8 +1,8 @@
 const config = {
   "ownerID": "692790523424931932",//Bu kısıma, kendi ID'niz. 
   "sahip": ["692790523424931932"],
-  "admins": [""],//Yetkili eklemek isterseniz, o kişinin ID'si.
-  "support": [""],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
+  "admins": ["333636600032526347"],//Yetkili eklemek isterseniz, o kişinin ID'si.
+  "support": ["333636600032526347"],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
   "token": "NzQ5NjUxMTM4MTY4NjE5MTk4.X0vFBw.TklOVMQlJVXNACkuyhCyEGL51EU",//Botun, tokeni.
   "dashboard" : {
     "oauthSecret": "Xde4T0kXMnkGBdDNE01AZgxtiNXHSXw3",//Client secret.
