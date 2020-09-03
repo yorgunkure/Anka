@@ -5,7 +5,7 @@ const config = {
   "support": [""],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
   "token": "NzQ5NjUxMTM4MTY4NjE5MTk4.X0vFBw.TklOVMQlJVXNACkuyhCyEGL51EU",//Botun, tokeni.
   "dashboard" : {
-    "oauthSecret": "",//Client secret.
+    "oauthSecret": "Xde4T0kXMnkGBdDNE01AZgxtiNXHSXw3",//Client secret.
     "callbackURL": `https://squats-bot.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
     "sessionSecret": "momet",//Bu kısımı, değiştirmeyiniz.
     "domain": "https://squats-bot.glitch.me"//Sitenin, adresi.
