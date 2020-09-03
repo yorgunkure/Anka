@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const config = require("../config.json");
 const prefix = config.PREFIX
 module.exports = {
-  name: "yardım",
+  name: "müzik-yardım",
   description: "Yardım komutlarını gösterir.",
   execute(message) {
     let embed = new MessageEmbed()
