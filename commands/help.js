@@ -18,6 +18,7 @@ module.exports = {
     .addField(prefix + 'geç', `Çalan şarkıyı geçer.`, true)
     .addField(prefix + 'dur', `Müziği durdurur.`, true)
     .addField(prefix + 'ses', `Müziğin sesini değiştirir`, true)
+
     //.addField('Links!', `\n-[İnvite Link](https://discordapp.com/oauth2/authorize?client_id=661927248483450920&scope=bot&permissions=8)\n-[Supporter Server](https://discord.gg/CvzYypW)`)//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ//EMİRHANSARAÇ
     .setColor("#F8AA2A")
     .setTimestamp();
