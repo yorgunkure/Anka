@@ -8,7 +8,7 @@ dependencies:
   helmet: 4.1.1
   level-session-store: 2.2.0
   marked: 1.2.0
-  moment: 2.29.0
+  moment: 2.29.1
   moment-duration-format: 2.3.2
   opusscript: 0.0.7
   passport: 0.4.1
@@ -734,10 +734,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-cBMXjSW+fjOb4tyaVHuaVE/A5TqkukDWiOfxxAjY+PEqmmBQlLwn+8OzwPiG3brouXKY5Un4pBjAeB6UToXHaQ==
-  /moment/2.29.0:
+  /moment/2.29.1:
     dev: false
     resolution:
-      integrity: sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
+      integrity: sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
   /ms/2.0.0:
     dev: false
     resolution:
