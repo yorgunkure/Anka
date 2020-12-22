@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+﻿const { MessageEmbed } = require('discord.js');
 const MemberStats = require('../Models/MemberStats.js');
 
 /// Yashinu was here
