@@ -4,10 +4,10 @@ const ayarlar = {
   teyitsizRolleri:[], // kayıt olmayanlara verieln rol
   jailRolu:"", // cezalılara verilen rol
   enAltYetkiliRolu:[], // ilk yetkili permi
-  activity:"Muhammed Demirel", // botun durumu
+  activity:"Youtube : Muhamemd Demirel", // botun durumu
   status:"idle",
   invitelink:"", //davet linki
   symbol:"", // tag
-  voicechannel:"788821784123801660" // botun gireceği ses kanalı
+  voicechannel:"" // botun gireceği ses kanalı
 };
 module.exports = ayarlar;
