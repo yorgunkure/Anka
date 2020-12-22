@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 const MemberStats = require('../Models/MemberStats.js');
 const conf = require('../ayarlar.json');
 
-/// Yashinu was here
+
 
 module.exports.execute = async (client, message, args) => {
     if(!conf.botowner.includes(message.author.id))
