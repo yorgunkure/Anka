@@ -4,7 +4,7 @@ const ayarlar = {
   teyitsizRolleri:[], // kayıt olmayanlara verieln rol
   jailRolu:"", // cezalılara verilen rol
   enAltYetkiliRolu:[], // ilk yetkili permi
-  activity:"Youtube : Muhamemd Demirel", // botun durumu
+  activity:"Youtube : Muhammed Demirel", // botun durumu
   status:"idle",
   invitelink:"", //davet linki
   symbol:"", // tag
