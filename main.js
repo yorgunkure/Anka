@@ -1,7 +1,7 @@
 ﻿const { Client, MessageEmbed, Collection } = require('discord.js');
 const client = global.client = new Client({fetchAllMembers: true});
 const mongoose = require('mongoose');
-mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://monster:1928374655m@cluster0.xrurb.mongodb.net/data?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 const moment = require('moment');
 require('moment-duration-format');
 require('moment-timezone');
