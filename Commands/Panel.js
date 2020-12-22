@@ -10,7 +10,7 @@ module.exports.execute = async (client, message, args) => {
     let secim = args[0];
     const embed = new MessageEmbed().setColor('RANDOM').setAuthor(message.member.displayName, message.author.avatarURL({ dynamic: true }));
     if (secim === 'sıfırla') {
-        if (!args[1] || (args[1] !== 'ses' && args[1] !== 'chat' )) return message.channel.send(embed.setDescription('Sıfırlanacak veriyi belirtmelisin! (ses/chat/teyit)')).then(x => x.delete({timeout: 5000}));
+        if (!args[1] || (args[1] !== 'ses' && args[1] !== 'chat' )) return message.channel.send(embed.setDescription('Sıfırlanacak veriyi belirtmelisin! (ses/chat/teyit/ilbeycik \n ilbeycik yazarsan bişey olmaz ben ilbey hava olsun diye koydum :\)')).then(x => x.delete({timeout: 5000}));
         if (args[1] === 'ses') {
             let newData = new Map();
             await MemberStats.updateMany({ guildID: message.guild.id }, { voiceStats: newData });
