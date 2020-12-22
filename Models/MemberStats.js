@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("sa");
 
 const Stats = mongoose.Schema({
     guildID: String,
