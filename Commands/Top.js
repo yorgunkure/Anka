@@ -1,7 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const MemberStats = require('../Models/MemberStats.js');
 
-/// Yashinu was here
 
 module.exports.execute = async(client, message, args,ayar) => {
 

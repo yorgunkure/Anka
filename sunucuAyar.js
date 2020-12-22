@@ -1,10 +1,10 @@
 const ayarlar = {
-  guildID: '', // sunucu idsi
+  guildID: '790589745759125555', // sunucu idsi
   ownerRole:"", // sunucu sahiplerinin rolü
   teyitsizRolleri:[], // kayıt olmayanlara verieln rol
   jailRolu:"", // cezalılara verilen rol
   enAltYetkiliRolu:[], // ilk yetkili permi
-  activity:"", // botun durumu
+  activity:"Monster", // botun durumu
   status:"idle",
   invitelink:"", //davet linki
   symbol:"", // tag
