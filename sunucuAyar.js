@@ -1,6 +1,6 @@
 const ayarlar = {
   guildID: '790589745759125555', // sunucu idsi
-  ownerRole:"", // sunucu sahiplerinin rolü
+  ownerRole:"785528282065928203", // sunucu sahiplerinin rolü
   teyitsizRolleri:[], // kayıt olmayanlara verieln rol
   jailRolu:"", // cezalılara verilen rol
   enAltYetkiliRolu:[], // ilk yetkili permi
