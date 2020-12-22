@@ -8,6 +8,6 @@ const ayarlar = {
   status:"idle",
   invitelink:"", //davet linki
   symbol:"", // tag
-  voicechannel:"" // botun gireceği ses kanalı
+  voicechannel:"788821784123801660" // botun gireceği ses kanalı
 };
 module.exports = ayarlar;
