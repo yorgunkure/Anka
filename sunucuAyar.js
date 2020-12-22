@@ -1,13 +1,13 @@
 const ayarlar = {
-  guildID: '790589745759125555', // sunucu idsi
-  ownerRole:"788355567210201098", // sunucu sahiplerinin rolü
+  guildID: '786918619397357588', // sunucu idsi
+  ownerRole:"", // sunucu sahiplerinin rolü
   teyitsizRolleri:[], // kayıt olmayanlara verieln rol
   jailRolu:"", // cezalılara verilen rol
   enAltYetkiliRolu:[], // ilk yetkili permi
-  activity:"Monster", // botun durumu
+  activity:"", // botun durumu
   status:"idle",
   invitelink:"", //davet linki
   symbol:"", // tag
-  voicechannel:"789017310920441887" // botun gireceği ses kanalı
+  voicechannel:"" // botun gireceği ses kanalı
 };
 module.exports = ayarlar;
